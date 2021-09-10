@@ -19,7 +19,7 @@ where
     private let _gameUseCase: GameUseCase
     private let _favoriteUseCase: FavoriteUseCase
     
-    @Published public var item: GameModel?
+    @Published public var item: GameModel? = nil
     @Published public var errorMessage: String = ""
     @Published public var isLoading: Bool = false
     @Published public var isError: Bool = false
